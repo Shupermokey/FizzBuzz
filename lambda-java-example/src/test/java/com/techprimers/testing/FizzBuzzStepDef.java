@@ -8,7 +8,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 
-public class FizzBuzzStepDef {
+public class FizzBuzzStepDef { 
  
 	FizzBuzz fizzBuzz;
 	String result;
