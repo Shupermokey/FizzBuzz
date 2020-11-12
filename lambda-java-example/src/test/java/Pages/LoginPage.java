@@ -6,10 +6,10 @@ import org.openqa.selenium.WebDriver;
 public class LoginPage {
 	
 	WebDriver driver;
-	By txt_username = By.id("name");
-	By txt_pass = By.id("password");
-	By btn_login = By.id("login");
-	By btn_logout = By.id("logout");
+	private By txt_username = By.id("name");
+	private By txt_pass = By.id("password");
+	private By btn_login = By.id("login");
+	private By btn_logout = By.id("logout");
 	
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
