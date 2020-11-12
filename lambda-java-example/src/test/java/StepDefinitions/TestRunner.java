@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/main/resources/GoogleSearch.feature",
+@CucumberOptions(features="src/main/resources/LoginDemo.feature",
 glue= {"StepDefinitions"},
 monochrome = true,
 plugin = {"pretty","junit:target/jUnitReports/report.xml",
