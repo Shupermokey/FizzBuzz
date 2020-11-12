@@ -9,4 +9,4 @@ Feature: Test ogin functionality
     Examples: 
       | username  | password |
       | Sobieraj  |    12345 |
-      | Alexander |    12345 |
+     # | Alexander |    12345 |
